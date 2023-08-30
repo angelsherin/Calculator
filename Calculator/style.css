@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+.container{
+    background-color: cadetblue;
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    /* animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; */
+    background-image: url("bluebox.gif");
+   
+}
+.calculator{
+    padding:30px;
+    border-radius: 4%;
+    background-color: rgb(86, 40, 126); 
+    opacity:0.9;  
+}
+input{
+    padding-top: 20px;
+    width:325px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px 5px rgb(27, 24, 24) inset ; 
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+    margin-bottom:10px;
+    text-align: right;
+    
+}
+.text1{
+    margin-bottom:20px;   
+}
+button{
+    background-color: rgb(204, 168, 216);
+    width:70px;
+    height:70px;
+    border-radius: 30%;
+    margin: 4px;
+    box-shadow: 8px 6px 5px 3px rgb(27, 24, 24) ;
+    font-size: 20px;
+    font-weight: bolder
+}
+
+
+
+/* @keyframes example {
+    0%   {background-color: rgb(165, 100, 100);}
+    25%  {background-color: rgb(206, 85, 155);}
+    50%  {background-color: rgb(201, 116, 207);}
+    100% {background-color: rgb(50, 153, 221);}
+    100% {background-color: rgb(204, 168, 216);}
+} */
